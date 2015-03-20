@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GafrongWeb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="branding">
+  <img src="https://s3-us-west-2.amazonaws.com/gafrongapp/logo-white.png" alt="gafrong logo" id="logo"><span><img src="https://s3-us-west-2.amazonaws.com/gafrongapp/gafrong-logo.png" alt="gafrong" id="gafrong-word"></span> 
+</div>
+
+
+<%= yield %>  
+
+
+</body>
+</html>
