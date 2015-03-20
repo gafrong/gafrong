@@ -3,16 +3,16 @@
 }
 
 #logo:hover {
-  -webkit-transform : rotate(360deg);
-  -moz-tranform     : rotate(360deg);
-  -ms-transform     : rotate(360deg);
-  transform         : rotate(360deg);
-  -webkit-transition: all .7s ease-in-out;
-  -moz-transition   : all .7s ease-in-out;
-  transition        : all .7s ease-in-out;
+  -webkit-transform : rotate(1800deg);
+  -moz-tranform     : rotate(1800deg);
+  -ms-transform     : rotate(1800deg);
+  transform         : rotate(1800deg);
+  -webkit-transition: all 4s ease-in-out;
+  -moz-transition   : all 4s ease-in-out;
+  transition        : all 4s ease-in-out;
 }
 .bg-dark {
-  background-color: rgba(1,1,1,0.65);
+  background-color: rgba(1,1,1,0.85);
   min-height: 200px;
   color: #fff;
   border-radius: 5px;
@@ -45,11 +45,13 @@
   margin-left: -10px;
   transition: margin-left 0.5s;
   -webkit-transition: margin-left 0.5s;  
+  -moz-transition: margin-left 0.5s;
 }
 .branding:hover #gafrong-word {
     margin-left: 2%;
     transition: margin-left 2.5s;
     -webkit-transition: margin-left 2.5s;
+    -moz-transition: margin-left 2.5s;
   }
 
 #background-video {
@@ -64,26 +66,6 @@
   background-size: cover;
 }
 
-#stripe-back {
-  opacity    : 0.2;
-  background : #fff;
-  min-height : 50px;
-  padding    : 25px 50px 0 0;
-  text-align : center;
-  width      : 50%;
-  margin-left: 90%;
-  font-size  : 18px;
-  margin-top : 30%;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition   : all 1s ease-in-out;
-  transition        : all 1s ease-in-out;   
-}
-#stripe-back:hover {
-  margin-left: 50%;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition   : all 1s ease-in-out;
-  transition        : all 1s ease-in-out;  
-}
 #submit-email {
   background-color: #09cff7;
   color: #fff;
