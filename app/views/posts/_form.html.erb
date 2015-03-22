@@ -1,0 +1,12 @@
+<%= form_for @post do |f| %>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="input-group">  
+        <%= f.text_field :email, class: "form-control", placeholder: "Email address.." %>
+        <span class="input-group-btn">
+          <%= f.button :SUBMIT, class: "btn btn-default", id: "submit-email" %>
+        </span>
+      </div>
+    </div>
+  </div>
+<% end %>

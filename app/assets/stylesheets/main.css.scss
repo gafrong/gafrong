@@ -7,12 +7,12 @@
   -moz-tranform     : rotate(1800deg);
   -ms-transform     : rotate(1800deg);
   transform         : rotate(1800deg);
-  -webkit-transition: all 4s ease-in-out;
-  -moz-transition   : all 4s ease-in-out;
-  transition        : all 4s ease-in-out;
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition   : all 3s ease-in-out;
+  transition        : all 3s ease-in-out;
 }
 .bg-dark {
-  background-color: rgba(1,1,1,0.85);
+  background-color: rgba(1,1,1,0.7);
   min-height: 200px;
   color: #fff;
   border-radius: 5px;
@@ -28,6 +28,10 @@
   margin-top: 7em;
   max-width: 35em;
   padding: 2em;
+}
+.right {
+  text-align: right;
+  margin-right: 1em;
 }
 .center {
   text-align: center;
@@ -67,18 +71,25 @@
 }
 
 #submit-email {
-  background-color: #09cff7;
+  background-color: #18d2e2;
   color: #fff;
 }
 #submit-email:hover {
-  background-color: #3ab1c9;
+  background-color: #5093b8;
 }
 
 /*Media Queries*/
-@media (max-width: 520px) {
+@media screen and (min-width: 980px) /* Desktop */ {
+
+}
+ 
+@media screen  and (max-width: 979px) /* Tablet */ {
+
+}
+ 
+@media screen and (max-width: 520px) /* Mobile */ {
   .welcome-box {
     margin-left: 1em;
     margin-right: 1em;
-  }
+  }   
 }
-
