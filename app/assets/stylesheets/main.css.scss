@@ -52,11 +52,11 @@
   -moz-transition: margin-left 0.5s;
 }
 .branding:hover #gafrong-word {
-    margin-left: 2%;
-    transition: margin-left 2.5s;
-    -webkit-transition: margin-left 2.5s;
-    -moz-transition: margin-left 2.5s;
-  }
+  margin-left: 2%;
+  transition: margin-left 2.5s;
+  -webkit-transition: margin-left 2.5s;
+  -moz-transition: margin-left 2.5s;
+}
 
 #background-video {
   position  : fixed;
@@ -67,6 +67,7 @@
   width     : auto; 
   height    : auto; 
   z-index   : -100;
+  // background: url() no-repeat;
   background-size: cover;
 }
 
