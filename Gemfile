@@ -15,7 +15,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 
 group :development do
-  gem 'spring'
+  gem 'spring', '~> 1.3.3'
   gem 'pry-rails'
   
   gem 'better_errors'
